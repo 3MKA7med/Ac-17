@@ -1,0 +1,29 @@
+3
+Your task — four stages
+Stage 1 — Set up Git
+Goal: make sure Git is ready on your machine.
+
+Check that Git is installed.
+Configure your user name and email.
+Stage 2 — Track the folder
+Goal: turn the folder into a repository and build a small history.
+
+Turn the folder into a repository.
+Stage everything and make your first commit.
+Make a small edit (for example, correct a score in grades.csv) and commit again.
+Make one more small change of your choice and commit it on its own.
+Check that your history shows at least three clear commits.
+Stage 3 — Publish to GitHub
+Goal: get your work online and practice syncing.
+
+Create a new empty repository on GitHub.
+Connect your local repository to it and push your work up.
+Edit README.md on GitHub in the browser, then pull the change back down.
+Stage 4 — Branch and merge
+Goal: improve the project safely on a branch.
+
+Create a new branch and switch to it.
+On the branch, add a new part to grades_report.py that prints the highest score in each subject.
+Commit and push the branch.
+Switch back to main and merge your branch in.
+Push main so the improvement is online.

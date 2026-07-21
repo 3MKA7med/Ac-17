@@ -1,0 +1,29 @@
+git --version
+git config --global user.name "your name"
+git config --global user.email "your email"
+git config --list
+git init
+git status
+git add .
+git add analyze.py
+git status
+git commit -m "Initial analysis"
+git log
+git add data.csv
+git commit -m "Update March revenue"
+git remote add origin GitHub_projrct_link
+git push -u origin master
+# make any changes
+git add analyze.py
+git commit -m "Add average revenue line"
+git push
+git pull
+git branch add-average
+git switch add-average
+git push -u origin add-average 
+git merge add-average
+git add analyze.py
+git commit -m "Add average revenue line"
+git switch main
+git clone GitHub_projrct_link
+
